@@ -2,8 +2,7 @@
 
 ## Update log
 
-[!NOTE]
-test
+[!NOTE] test
 
 Not really released yet (well to my standard)
 
