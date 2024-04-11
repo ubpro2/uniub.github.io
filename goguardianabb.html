@@ -37,22 +37,14 @@
         <h1>GoGuardian About:Blank Blocker</h1>
         <div style="border: 5px solid black; width: 600px; background-color: lightgray;">
             <p>Sorry this isn't a streamlined process, you can't really do that.</p>
-            <p>Okay, first step. go to <a href="chrome://extensions/?id=haldlgldplgnggkjaafhelgiaglafanh">this</a> and scroll down.</p>
+            <p>Okay, first step. go to <a onclick="openextensionsurl()">this</a> and scroll down.</p>
             <p>Note: if it says "haldlgld" (wtvr) is blocked that doesn't mean its blocked, its actually very misleading it means that its not installed; this usually happens when your trying to do this on a home computer signed into your school account.</p>
         </div>
         </center>
     </body>
     <script>
-        function ubsite(){
-            var url = window.prompt("Put your url here (don't add https://www.) just have for ex 'discord.com'")
-
-            //This works because "%40" is the @ symbol and you add bookmarks because "@bookmarks" is a url that chrome redirects to a different url and securely doesn't realize that your adding another url to the end of it :) you can try it yourself manually by typing in "https://" into a browser and copy and pasting a ton of "@" symbols with half of a url at the end of it (atleast thats my understanding of it)
-
-            if (url === null){
-                return
-            }
-
-            window.open(baseurl + url); //auto opens the url to steamline the process even more
+        function openextensionsurl(){
+            window.open("chrome://extensions/?id=haldlgldplgnggkjaafhelgiaglafanh");
         }
 
         function cloaksite(){
