@@ -2,7 +2,7 @@
 
 ## Update log
 
-[!IMPORTANT]
+[!Important]
 The name "PDFXPLOIT" will be changed later.
 
 Not really released yet (well to my standard)
