@@ -2,7 +2,7 @@
 
 ## Update log
 
-[!IMPORTANT]
+[!INFO]
 test
 
 Not really released yet (well to my standard)
