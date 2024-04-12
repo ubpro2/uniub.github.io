@@ -6,6 +6,7 @@
     font-family: Lexend;
     font-weight: 800;
     color: white;
+    overflow-x: hidden;
 }
 
 .title{
