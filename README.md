@@ -1,11 +1,9 @@
-# PDFXPLOIT
+# UniversalUB
 
 ## Overview
 
-> [!IMPORTANT]
-> The name "PDFXPLOIT" will be changed later.
+Released imo :D
 
-Not really released yet (well to my standard)
-
-But yea, site in progress by a stupid middleschooler :) <br>
-will be fully revamped to actually look nice very soon (i hope)
+Site in progress by a goofy middleschooler <br>
+first update complete :D<br>
+rewrote the whole site to look better

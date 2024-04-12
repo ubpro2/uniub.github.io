@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Lexend;
+    font-weight: 800;
+    color: white;
+}
+
+.title{
+    font-size: 96px;
+    position: relative;
+}
+
+.dashedhr{
+    border: 1px dashed #21273c;
+    background-color: transparent;
+}
+
+.lighthr{
+    border-color: #414d75;
+}
+
+.bartext{
+    z-index: 1000;
+    position: absolute;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.titleimage{
+    text-align: center;
+    background-image: url(images/galaxybg.jpg);
+    background-position-y: -300px;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maincontent{
+    background-color: #21273c;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.padding{
+    padding: 35px;
+}
+
+.wrapper{
+    width: 80vw;
+}
+
+.margin{
+    height: 100px;
+    background-color: #21273c;
+}
+
+.smallmargin{
+    height: 50px;
+    background-color: #21273c;
+}
+
+.griddiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+button{
+    background: #414d75;
+    border-radius: 50px;
+    margin: 30px;
+    border: 5px solid #1a1e2f;
+    font-size: 32px;
+}
+
+.app{
+    height: 200px;
+    width: 200px;
+    background-color: #414d75;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    border: 5px solid #1a1e2f;
+}
+
+.footer{
+    background-color: #21273c;
+    padding: 15px;
+    color: #414d75;
+    text-align: center;
+}

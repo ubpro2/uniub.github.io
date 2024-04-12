@@ -1,54 +1,44 @@
+<!DOCTYPE html>
 <html>
-    <title>
-        Google Drive
-    </title>
-    <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png">
-    <style>
-
-        *{
-            font-family: Comic Sans MS;
-            font-weight: 700;
-        }
-
-    </style>
+    <head>
+        <title>Google Drive - New document</title>
+        <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
     <body>
-        <a href="https://universalub.github.io" style="text-decoration: none; color: black;"><button style="width: 150px;position: absolute; height:50px; padding:5px; background-color: lightgray; border: 2.5px solid black;">Home</button></a>
-        <button style="transform: translateY(62.5px); width: 150px; position: absolute; height:50px; padding:5px; background-color: lightgray; border: 2.5px solid black;" onclick="cloaksite()">Open in About:Blank</button>
-        <center>
-        <h1>GoGuardian About:Blank Blocker</h1>
-        <div style="border: 5px solid black; width: 600px; background-color: lightgray;">
-            <p>Sorry this isn't a streamlined process, you can't really do that.</p>
-            <p>Okay, step 1. go to chrome://extensions and scroll down til you see "GoGuardian".</p>
-            <p>Note: if it doesn't appear make sure your doing this on your chromebook. not a computer logged into your account.</p>
-            <p>Step 2 (final step), scroll down and make sure "Allow access to file URLs" is set to false.</p>
-            <p>Boom, your done. now goguardian can't see any tabs with both file urls or about:blank urls (classroom6x uses them)</p>
+    <div style="width: 100vw;">
+        <a href="https://universalub.github.io">
+            <div style="float: left; width: 10vw;">
+                <p class="bartext">Universal UB</p>
+            </div>
+        </a>
+        <div onclick="cloaksite('https://universalub.github.io')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
+            <p class="bartext">Open in About:Blank</p>
         </div>
-        </center>
+    </div>
+    <div class="titleimage">
+        <h1 class="title">GoGuardian AB Blocker [GUIDE]</h1>
+    </div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">How to prevent go guardian from seeing about:blank or file urls :D</h1>
+        <hr class="lighthr">
+        <h2 class="padding">Sorry this isn't a streamlined process, you can't really do that.</h2>
+        <hr class="lighthr">
+        <h2 class="padding">Okay, step 1. go to chrome://extensions and scroll down til you see "GoGuardian".</h2> 
+        <hr class="lighthr">
+        <h2 class="padding">Note: if it doesn't appear make sure your doing this on your chromebook. not a computer logged into your account.</h2>
+        <hr class="lighthr">
+        <h2 class="padding">Step 2 (final step), scroll down and make sure "Allow access to file URLs" is set to false.</h2>
+        <hr class="lighthr">
+        <h2 class="padding">Boom, your done. now goguardian can't see any tabs with both file urls or about:blank urls (classroom6x uses them)</h2>
+    </div>
+    <hr class="dashedhr">
     </body>
-    <script>
-
-        function cloaksite(){
-            var urlObj = new window.URL(window.location.href);
-            var url = "https://universalub.github.io/goguardianabb";
-
-            if (url) {
-                var win;
-                if (win) {
-                    win.focus();
-                } 
-                else {
-                    win = window.open();
-                    win.document.body.style.margin = '0';
-                    win.document.body.style.height = '100vh';
-                    var iframe = win.document.createElement('iframe');
-                    iframe.style.border = 'none';
-                    iframe.style.width = '100%';
-                    iframe.style.height = '100%';
-                    iframe.style.margin = '0';
-                    iframe.src = url;
-                    win.document.body.appendChild(iframe);
-                }
-            }
-        }
-    </script>
+    <div class="footer">
+        <div class="smallmargin"></div>
+        <a style="text-decoration: none; color: #414d75;" href="https://www.github.com/universalub/universalub.github.io"><p style="color: #414d75;">Github </a><a style="text-decoration: none;" href="https://universalub.github.io/terms"><span style="color: #414d75;"> Terms</span></a></p>
+        <div class="smallmargin"></div>
+    </div>
+    <script src="aboutblank.js"></script>
 </html>
