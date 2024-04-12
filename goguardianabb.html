@@ -18,15 +18,14 @@
         <h1>GoGuardian About:Blank Blocker</h1>
         <div style="border: 5px solid black; width: 600px; background-color: lightgray;">
             <p>Sorry this isn't a streamlined process, you can't really do that.</p>
-            <p>Okay, first step. go to <button onclick="openextensionsurl()">this</button> and scroll down.</p>
-            <p>Note: if it says "haldlgld" (wtvr) is blocked that doesn't mean its blocked, its actually very misleading it means that its not installed; this usually happens when your trying to do this on a home computer signed into your school account.</p>
+            <p>Okay, step 1. go to chrome://extensions and scroll down til you see "GoGuardian".</p>
+            <p>Note: if it doesn't appear make sure your doing this on your chromebook. not a computer logged into your account.</p>
+            <p>Step 2 (final step), scroll down and make sure "Allow access to file URLs" is set to false.</p>
+            <p>Boom, your done. now goguardian can't see any tabs with both file urls or about:blank urls (classroom6x uses them)</p>
         </div>
         </center>
     </body>
     <script>
-        function openextensionsurl(){
-            window.open("chrome://extensions/?id=haldlgldplgnggkjaafhelgiaglafanh", _blank);
-        }
 
         function cloaksite(){
             var urlObj = new window.URL(window.location.href);
