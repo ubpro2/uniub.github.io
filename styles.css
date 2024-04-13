@@ -34,6 +34,8 @@
     text-align: center;
     background-image: url(images/galaxybg.jpg);
     background-position-y: -500px;
+    background-position-x: -50%;
+    background-size: 75%;
     height: 400px;
     width: 100vw;
     display: flex;
