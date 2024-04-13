@@ -24,7 +24,7 @@
 }
 
 .bartext{
-    z-index: 1000;
+    z-index: 100000;
     position: absolute;
     margin: 20px;
     font-size: 24px;
