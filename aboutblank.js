@@ -39,14 +39,13 @@ function ubsite(){
     window.open(baseurl + url); //auto opens the url to steamline the process even more
 }
 
-function checkAndModifyPage(baseURL) {
+function pagesecurity(baseURL) {
     var currentURL = window.location.href;
     if (currentURL.startsWith(baseURL)) {
         return;
     } else {
-        document.body.innerHTML = '<p>This page is not being hosted on its original location, please go to <a href="universalub.github.io">universalub</a> to visit the main site.</p>';
+        document.body.innerHTML = '<p style="color: black; font-family: arial;">This page is not being hosted on its original location, please go to <a href="universalub.github.io">universalub</a> to visit the original site.</p>';
     }
 }
 
-// Call the function with the base URL you want to check against
-checkAndModifyPage('https://universalub.github.io/');
+pagesecurity('https://universalub.github.io/');
