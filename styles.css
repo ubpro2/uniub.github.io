@@ -32,7 +32,7 @@
 .titleimage{
     text-align: center;
     background-image: url(images/galaxybg.jpg);
-    background-position-y: -300px;
+    background-position-y: -30%;
     height: 400px;
     width: 100vw;
     display: flex;
