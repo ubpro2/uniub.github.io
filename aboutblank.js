@@ -57,3 +57,5 @@ function pagesecurity(baseURL) {
 }
 
 pagesecurity('https://universalub.github.io/');
+
+window.onbeforeunload = null; //prevent the popup from appearing
