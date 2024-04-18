@@ -39,6 +39,20 @@ function ubsite(){
     window.open(baseurl + url); //auto opens the url to steamline the process even more
 }
 
+window.addEventListener('beforeunload', function (e) {
+    // Cancel the event
+    e.preventDefault();
+    // Chrome requires returnValue to be set
+    e.returnValue = '';
+
+    // Custom message for the popup
+    var confirmationMessage = 'This is here to prevent GoGuardian from blocking the site, please click "Prevent this page from creating dialog boxes" and then cancel.';
+
+    // Display the confirmation dialog
+    e.returnValue = confirmationMessage;
+    return confirmationMessage;
+});
+
 function pagesecurity(baseURL) {
     var currentURL = window.location.href;
     if (currentURL.startsWith(baseURL)) {
