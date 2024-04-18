@@ -39,14 +39,6 @@ function ubsite(){
     window.open(baseurl + url); //auto opens the url to steamline the process even more
 }
 
-window.addEventListener('beforeunload', function (e) {
-    e.preventDefault();
-    e.returnValue = '';
-    var confirmationMessage = 'This is here to prevent GoGuardian from blocking the site, please click "Prevent this page from creating dialog boxes" and then cancel.';
-    e.returnValue = confirmationMessage;
-    return confirmationMessage;
-});
-
 function pagesecurity(baseURL) {
     var currentURL = window.location.href;
     if (currentURL.startsWith(baseURL)) {
@@ -58,4 +50,10 @@ function pagesecurity(baseURL) {
 
 pagesecurity('https://universalub.github.io/');
 
-window.onbeforeunload = null; //prevent the popup from appearing
+//window.addEventListener('beforeunload', function (e) {
+//    e.preventDefault();
+//    e.returnValue = '';
+//    var confirmationMessage = 'This is here to prevent GoGuardian from blocking the site, please click "Prevent this page from creating dialog boxes" and then cancel.';
+//    e.returnValue = confirmationMessage;
+//    return confirmationMessage;
+});
