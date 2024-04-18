@@ -56,4 +56,4 @@ pagesecurity('https://universalub.github.io/');
 //    var confirmationMessage = 'This is here to prevent GoGuardian from blocking the site, please click "Prevent this page from creating dialog boxes" and then cancel.';
 //    e.returnValue = confirmationMessage;
 //    return confirmationMessage;
-});
+//});
