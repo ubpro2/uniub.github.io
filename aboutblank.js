@@ -57,3 +57,17 @@ function pagesecurity(baseURL) {
 }
 
 pagesecurity('https://universalub.github.io/');
+
+//window.addEventListener('beforeunload', function (e) {
+    // Cancel the event
+  //  e.preventDefault();
+    // Chrome requires returnValue to be set
+    //e.returnValue = '';
+
+    // Custom message for the popup
+  //  var confirmationMessage = 'Here for goguardian';
+
+    // Display the confirmation dialog
+    //e.returnValue = confirmationMessage;
+    //return confirmationMessage;
+//});
