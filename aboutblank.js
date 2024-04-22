@@ -4,8 +4,6 @@ var baseurl = "https://%40%40%40%40%40%40%40%40%40%40%40%40%40%40%40%40%40%40%40
 
 function cloaksite(url){
 
-    
-
     var urlObj = new window.URL(window.location.href);
 
     if (url) {
@@ -16,7 +14,20 @@ function cloaksite(url){
         else {
 
             if (url == "main"){
+                
                 url = 'https://' + currentname + '.github.io'
+
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                var iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = 'https://' + currentname + '.github.io' + url;
+                win.document.body.appendChild(iframe);
+                return
             }
 
             win = window.open();
