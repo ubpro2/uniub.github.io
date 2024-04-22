@@ -14,7 +14,7 @@ function cloaksite(url){
         else {
 
             if (url == "main"){
-                
+
                 url = 'https://' + currentname + '.github.io'
 
                 win = window.open();
@@ -25,7 +25,7 @@ function cloaksite(url){
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.margin = '0';
-                iframe.src = 'https://' + currentname + '.github.io' + url;
+                iframe.src = 'https://' + currentname + '.github.io';
                 win.document.body.appendChild(iframe);
                 return
             }
