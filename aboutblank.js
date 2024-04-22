@@ -16,7 +16,7 @@ function cloaksite(url){
         else {
 
             if (url == "main"){
-                url = 'https://' + currentname + 'github.io'
+                url = 'https://' + currentname + '.github.io'
             }
 
             win = window.open();
@@ -51,7 +51,7 @@ function ubsite(){
 
 function switchtourl(urltoswitch){
     if (urltoswitch == "main"){
-        window.location.href = 'https://' + currentname + 'github.io'
+        window.location.href = 'https://' + currentname + '.github.io'
     }
     window.location.href = 'https://' + currentname + 'github.io' + urltoswitch
 }
