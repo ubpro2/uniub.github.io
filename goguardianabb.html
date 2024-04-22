@@ -6,16 +6,16 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-    <div style="width: 100vw;">
-        <a href="https://universalub.github.io">
-            <div style="float: left; width: 10vw;">
-                <p class="bartext">Universal UB</p>
+        <div style="width: 100vw;">
+            <a onclick="switchtourl('main')">
+                <div style="float: left; width: 10vw;">
+                    <p class="bartext">Universal UB</p>
+                </div>
+            </a>
+            <div onclick="cloaksite('/goguardianabb')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
+                <p class="bartext">Open in About:Blank</p>
             </div>
-        </a>
-        <div onclick="cloaksite('https://universalub.github.io/goguardianabb')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
-            <p class="bartext">Open in About:Blank</p>
         </div>
-    </div>
     <div class="titleimage">
         <h1 class="title">GoGuardian AB Blocker [GUIDE]</h1>
     </div>
@@ -37,7 +37,7 @@
     </body>
     <div class="footer">
         <div class="smallmargin"></div>
-        <a style="text-decoration: none; color: #414d75;" href="https://www.github.com/universalub/universalub.github.io"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" href="https://universalub.github.io/terms"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" href="https://universalub.github.io/about"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" href="https://universalub.github.io/credits"><span style="color: #414d75;"> Credits </span></a></p>
+        <a style="text-decoration: none; color: #414d75;" onclick="openurl('https://www.github.com/' + currentname)"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" onclick="switchtourl('/terms')"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/about')"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/credits')"><span style="color: #414d75;"> Credits </span></a></p>
         <div class="smallmargin"></div>
     </div>
     <script src="aboutblank.js"></script>
