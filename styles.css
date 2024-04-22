@@ -5,12 +5,16 @@ html{
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7.5px;
     color: #21273c;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
+    background: #21273c;
+}
+
+::-webkit-scrollbar-button{
     background: #414d75;
 }
 
