@@ -27,7 +27,7 @@ function cloaksite(url){
             iframe.style.width = '100%';
             iframe.style.height = '100%';
             iframe.style.margin = '0';
-            iframe.src = url;
+            iframe.src = 'https://' + currentname + '.github.io' + url;
             win.document.body.appendChild(iframe);
         }
     }
@@ -53,7 +53,7 @@ function switchtourl(urltoswitch){
     if (urltoswitch === "main"){
         window.location.href = 'https://' + currentname + '.github.io'
     }
-    window.location.href = 'https://' + currentname + 'github.io' + urltoswitch
+    window.location.href = 'https://' + currentname + '.github.io' + urltoswitch
 }
 
 function pagesecurity(baseURL) {
