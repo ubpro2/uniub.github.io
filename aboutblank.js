@@ -100,8 +100,5 @@ function makerandomdescription() {
     const randomText = textOptions[Math.floor(Math.random() * textOptions.length)];
 
     // Get the target element by ID and update its text content
-    const textElement = document.getElementById("randomtext");
-    if (textElement) {
-        textElement.innerText = randomText;
-    }
+    document.getElementById("randomtext").innerHTML = randomText;
 }
