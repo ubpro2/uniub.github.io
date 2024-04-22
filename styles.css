@@ -18,6 +18,10 @@ html{
     background: #414d75;
 }
 
+::-webkit-scrollbar-thumb{
+    background: #414d75;
+}
+
 *{
     padding: 0;
     margin: 0;
