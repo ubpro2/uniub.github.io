@@ -46,7 +46,7 @@ function pagesecurity(baseURL) {
     if (currentURL.startsWith(baseURL)) {
         return;
     } else {
-        document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="universalub.github.io" target="_blank">universalub</a> to visit the original site.</p>';
+        document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://universalub.github.io" target="_blank">universalub</a> to visit the original site.</p>';
     }
 }
 
