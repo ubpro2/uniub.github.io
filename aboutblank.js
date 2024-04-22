@@ -99,3 +99,5 @@ function makerandomdescription() {
     const randomText = textOptions[Math.floor(Math.random() * textOptions.length)];
     document.getElementById("randomtext").innerHTML = randomText;
 }
+
+makerandomdescription()
