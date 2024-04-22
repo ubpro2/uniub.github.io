@@ -52,6 +52,7 @@ function ubsite(){
 function switchtourl(urltoswitch){
     if (urltoswitch === "main"){
         window.location.href = 'https://' + currentname + '.github.io'
+        return
     }
     window.location.href = 'https://' + currentname + '.github.io' + urltoswitch
 }
