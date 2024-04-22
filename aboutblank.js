@@ -86,3 +86,22 @@ pagesecurity('https://' + currentname + '.github.io/');
 //    e.returnValue = confirmationMessage;
 //    return confirmationMessage;
 //});
+
+function makerandomdescription() {
+    const textOptions = [
+        "If somethings not working check your chrome version!",
+        "Fun fact! This site has been taken down 1 Time(s)",
+        "Only tested on ChromeOS v114.0.5735.",
+        "Join the discord server to be notified when the site gets taken down!",
+        "Submit game suggestions in the discord server!"
+    ];
+
+    // Get the random text from the array
+    const randomText = textOptions[Math.floor(Math.random() * textOptions.length)];
+
+    // Get the target element by ID and update its text content
+    const textElement = document.getElementById("randomtext");
+    if (textElement) {
+        textElement.innerText = randomText;
+    }
+}
