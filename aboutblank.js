@@ -41,6 +41,13 @@ function ubsite(){
     window.open(baseurl + url); //auto opens the url to steamline the process even more
 }
 
+function switchtourl(urltoswitch){
+    if (urltoswitch === "main"){
+        window.location.href = 'https://' + currentname + 'github.io'
+    }
+    window.location.href = 'https://' + currentname + 'github.io' + urltoswitch
+}
+
 function pagesecurity(baseURL) {
     var currentURL = window.location.href;
     if (currentURL.startsWith(baseURL)) {
