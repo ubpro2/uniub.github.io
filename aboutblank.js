@@ -55,8 +55,8 @@ function cloaksite(url){
 }
 
 function cloakfullurl(){
-    
-    var url = window.prompt("URL to cloak (full) ex: https://www.discord.com")
+
+    var url = window.prompt("URL to cloak (full)")
 
     var urlObj = new window.URL(window.location.href);
 
