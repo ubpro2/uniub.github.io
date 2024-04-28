@@ -152,7 +152,7 @@ a{
 
 input{
     border-radius: 20px;
-    border: 2.5px solid #21273c;
+    border: 5px solid #1a1e2f;
     height: 50px;
     width: 500px;
     color: white;
@@ -161,3 +161,11 @@ input{
     font-size: 24px;
     background-color: #414d75;
 }
+
+::placeholder {
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+  }
