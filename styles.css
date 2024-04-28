@@ -145,5 +145,12 @@ a{
 .embed{
     border-radius: 25px;
     margin: 50px;
-    
+    border: 0;
+}
+
+input{
+    border-radius: 20px;
+    border: 2.5px solid #21273c;
+    height: 50px;
+    width: 200px;
 }
