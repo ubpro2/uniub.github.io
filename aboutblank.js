@@ -6,10 +6,11 @@ const textOptions = [
     "If somethings not working check your chrome version!",
     "Fun fact! This site has been taken down 1 Time(s)",
     "Only tested on ChromeOS v114.0.5735.",
-    "Join the discord server to be notified when the site gets taken down!",
+    "Join the discord server for new site URLs!",
     "Submit game suggestions in the discord server!",
     "Go to chrome://version to check your version!",
-    "If the sites not updating clear your cache!"
+    "If the sites not updating clear your cache!",
+    "Updates... sometimes?"
 ];
 
 function cloaksite(url){
