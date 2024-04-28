@@ -141,3 +141,9 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.embed{
+    border-radius: 25px;
+    margin: 50px;
+    
+}
