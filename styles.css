@@ -146,15 +146,18 @@ a{
     border-radius: 25px;
     margin: 50px;
     border: 0;
+    width: 960;
+    height: 540;
 }
 
 input{
     border-radius: 20px;
     border: 2.5px solid #21273c;
     height: 50px;
-    width: 200px;
+    width: 500px;
     color: white;
     font-family: Lexend;
     font-weight: 800;
     font-size: 24px;
+    background-color: #414d75;
 }
