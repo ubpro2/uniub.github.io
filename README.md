@@ -1,6 +1,31 @@
->Hi school admin, if your seeing this I can put the site back up in under 15 minutes <3. Good luck.
+# UniversalUB V1.05 - CURRENT
+### Added visual tutorials for extension disablers
+### Added refresh exploit and a visual tutorial for it
+### Added updates to index and changed order
 
-# UniversalUB
-### My goal for this site is to cause as much chaos as possible.
-### spread it.
-### do anything you can to spread the site and cause chaos.
+### next update will likely be the update blocker or blog, sorry for delaying them so long, im lazy.
+
+# UniversalUB V1.04
+### Discord server released!
+### Added 3 games to Games
+
+# UniversalUB V1.03
+### Added Caub update blocker and blog as [WIP]
+### Games released with 2 games
+### Changed site name to UniUB, will still be called universal ub though.
+
+# UniversalUB V1.02
+### Added temp disable goguardian and securly
+### Added footer
+
+# UniversalUB V1.01
+### Added prevent goguardian from seeing about blank urls
+
+# UniversalUB V1.0
+### Renamed site from PDFXPLOIT to Universal UB
+### Added the original opp to Universal UB
+### Revamped and Redesigned EVERYTHING
+
+# PDFXPLOIT RELEASE
+### simple to use opp
+### note: I never planned to fully make this a site
