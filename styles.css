@@ -153,4 +153,8 @@ input{
     border: 2.5px solid #21273c;
     height: 50px;
     width: 200px;
+    color: white;
+    font-family: Lexend;
+    font-weight: 800;
+    font-size: 24px;
 }
