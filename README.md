@@ -1,4 +1,9 @@
-# UniversalUB V1.05 - CURRENT
+# UniversalUB V1.06 - CURRENT
+### Added CauDNS unblocker
+
+<br><br><br><br>
+
+# UniversalUB V1.05
 ### Added visual tutorials for extension disablers
 ### Added refresh exploit and a visual tutorial for it
 ### Added updates to index and changed order
