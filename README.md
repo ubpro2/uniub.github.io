@@ -1,4 +1,11 @@
-# UniversalUB V1.06 - CURRENT
+# UniversalUB V1.07
+### Rearanged site
+### Released blog
+### Made one blog post abt kioskv3 (will be added to the site soon)
+
+<br><br><br><br>
+
+# UniversalUB V1.06
 ### Added CauDNS unblocker
 
 <br><br><br><br>
@@ -11,7 +18,6 @@
 ### next update will likely be the update blocker or blog, sorry for delaying them so long, im lazy.
 
 <br><br><br><br>
-
 
 # UniversalUB V1.04
 ### Discord server released!
