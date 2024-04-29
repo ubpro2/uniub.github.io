@@ -10,6 +10,8 @@ const textOptions = [
     "Submit game suggestions in the discord server!",
     "Go to chrome://version to check your version!",
     "If the sites not updating clear your cache!",
+    "School admins < literally anyone",
+    "Javascript is overrated",
     "Updates... sometimes?"
 ];
 
