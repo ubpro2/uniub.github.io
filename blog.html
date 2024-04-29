@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Drive - New document</title>
+        <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div style="width: 100vw;">
+        <a onclick="switchtourl('main')">
+            <div style="float: left; width: 10vw;">
+                <p class="bartext">Universal UB</p>
+            </div>
+        </a>
+        <div onclick="cloaksite('main')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
+            <p class="bartext">Open in About:Blank</p>
+        </div>
+    </div>
+    <div class="titleimage">
+        <h1 class="title">Blog</h1>
+        <br>
+        <h2 style="position: absolute; transform: translateY(75px); width: 700px;"><span id="randomtext"></span></h2>
+    </div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">Silly blog I made :)</h1>
+        <hr class="lighthr">
+        <h2 class="padding">Basically me going more in depth about exploits I find / spread</h2>
+    </div>
+    <hr class="dashedhr">
+    <div class="margin"></div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">Blogs</h1>
+        <hr class="lighthr">
+        <div class="griddiv">
+            <div onclick="switchtourl('/blogs/kioskv3')" class="app">How I found KioskV3</div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+            <div onclick="switchtourl('/blogs/')" class="app"></div>
+        </div>
+    </div>
+    <hr class="dashedhr">
+    </body>
+    <div class="footer">
+        <div class="smallmargin"></div>
+        <a style="text-decoration: none; color: #414d75;" onclick="openurl('https://www.github.com/' + currentname)"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" onclick="switchtourl('/terms')"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/about')"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/credits')"><span style="color: #414d75;"> Credits </span></a></p>
+        <div class="smallmargin"></div>
+    </div>
+    <script src="aboutblank.js"></script>
+</html>
