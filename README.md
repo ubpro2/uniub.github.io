@@ -1,7 +1,7 @@
 # UniversalUB V1.07
 ### Rearanged site
-### Released blog
-### Made one blog post abt kioskv3 (will be added to the site soon)
+### Released blog (1 post)
+### Kiosk V3 Next update
 
 <br><br><br><br>
 
