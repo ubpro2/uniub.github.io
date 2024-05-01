@@ -1,3 +1,8 @@
+# UniversalUB V1.08 - Current
+### Kiosk V3 released!
+
+<br><br><br><br>
+
 # UniversalUB V1.07
 ### Rearanged site
 ### Released blog (1 post)
