@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Drive - New document</title>
+        <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div style="width: 100vw;">
+            <a onclick="switchtourl('main')">
+                <div style="float: left; width: 10vw;">
+                    <p class="bartext">Universal UB</p>
+                </div>
+            </a>
+            <div onclick="cloaksite('/emulatorsmain')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
+                <p class="bartext">Open in About:Blank</p>
+            </div>
+        </div>
+    <div class="titleimage">
+        <h1 class="title">Emulators</h1>
+    </div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">Cool emulators / remakes I've found :D suggestion by Konner</h1>
+        <hr class="lighthr">
+        <h2 class="padding"><a onclick="switchtourl('/emulators/win11/')">Windows 11 Remake (Included Proxy)</a></h2>
+        <hr class="lighthr">
+        <h2 class="padding">Hey, you've made it to the bottom of the emulators page! if you can't find a emulator you want, join the discord and suggest it! ps: games are ordered from top: most recent bottom: least recent</h2>
+    </div>
+    <hr class="dashedhr">
+    </body>
+    <div class="footer">
+        <div class="smallmargin"></div>
+        <a style="text-decoration: none; color: #414d75;" onclick="openurl('https://www.github.com/' + currentname)"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" onclick="switchtourl('/terms')"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/about')"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/credits')"><span style="color: #414d75;"> Credits </span></a></p>
+        <div class="smallmargin"></div>
+    </div>
+    <script>
+        function pagesecurity(baseURL) {
+            var currentURL = window.location.href;
+            if (currentURL.startsWith(baseURL)) {
+                return;
+            } else {
+                document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://' + currentname + '.github.io" target="_blank">universalub</a> to visit the original site.</p>';
+            }
+        }
+
+        pagesecurity('https://' + currentname + '.github.io/');
+    </script>
+    <script src="aboutblank.js"></script>
+</html>

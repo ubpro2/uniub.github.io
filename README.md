@@ -1,4 +1,11 @@
-# UniversalUB V1.09 - Current
+# UniversalUB V1.1 - Current
+### Big update!
+### Emulators will now be getting added to the site!
+### Added Windows 11 emulator & proxy
+
+<br><br><br><br>
+
+# UniversalUB V1.09
 ### Games update, added like 5 games (give me suggestions :D)
 
 <br><br><br><br>
